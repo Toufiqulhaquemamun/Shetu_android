@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linerproductname"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewname"
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="পন্যের নাম"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+        </LinearLayout>
+        <View
+            android:id="@+id/view0"
+            style="@style/Divider"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/linerproductname"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linerbuyier"
+            android:layout_below="@id/view0">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="ক্রেতার নাম"
+                android:visibility="visible">
+            </TextView>
+
+            <TextView
+                android:id="@+id/buyer_name"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            style="@style/Divider"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/linerbuyier"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearseller"
+            android:layout_below="@id/view1"
+            >
+
+            <TextView
+
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="বিক্রেতার নাম"
+                android:visibility="visible">
+            </TextView>
+
+            <TextView
+                android:id="@+id/seller_name"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            style="@style/Divider"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/linearseller"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linernid_date"
+            android:layout_below="@id/view2"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="দরদামের তারিখ"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/bid_date_time"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                ></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearbid_enddate"
+            android:layout_below="@id/linernid_date"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=" দরদামের মেয়াদ">
+            </TextView>
+
+            <TextView
+                android:id="@+id/bid_end_time"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearbid_status"
+            android:layout_below="@id/linearbid_enddate"
+            >
+
+            <TextView
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=" স্ট্যাটাস"
+                android:visibility="visible">
+            </TextView>
+
+            <TextView
+                android:id="@+id/_status"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                android:visibility="visible"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linernid_deliverytime"
+            android:layout_below="@id/linearbid_status"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="পরিবহণের তারিখ"
+                android:visibility="visible">
+            </TextView>
+
+            <TextView
+                android:id="@+id/product_delivery_time"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linernid_tokenentry"
+            android:layout_below="@id/linernid_deliverytime"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/label"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="টোকেন "
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/product_delivery_token"
+                android:layout_width="match_parent"
+                style="@style/label"
+                android:layout_height="match_parent"
+                android:textColor="@color/shadow_color"
+                android:textSize="@dimen/album_title"
+                android:textStyle="bold"
+                ></EditText>
+        </LinearLayout>
+        <View
+            android:id="@+id/view7"
+            style="@style/Divider"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/linernid_tokenentry"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view7"
+            android:gravity="center"
+            android:weightSum="2"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  পন্য সরবরাহ করুন  "
+                android:textColor="@color/white"
+                android:background="@drawable/round_shape_button"
+                android:padding="10dp"
+                android:id="@+id/btn_ShipCommodity"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/invalid_commodity"
+                android:id="@+id/btn_invalidcommodity"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view7"
+            android:gravity="center"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valid_commodity"
+                android:id="@+id/btn_validcommodity"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:background="@drawable/round_shape_button"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view7"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/undo_verification_commodity"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_edittext"
+                android:padding="10dp"
+                android:id="@+id/btn_undoverifyCommodity"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view7"
+            android:gravity="center">
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verification_commodity"
+                android:id="@+id/btn_verifyCommodity"
+                android:textColor="@color/white"
+
+                android:background="@drawable/round_shape_button"
+                android:visibility="gone"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view7"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পন্য সরবরাহ বাতিল করুন"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_edittext"
+                android:padding="10dp"
+                android:id="@+id/btn_cancelShip"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

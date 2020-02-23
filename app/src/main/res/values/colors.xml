@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#001540</color>
+    <color name="colorPrimary">#001540</color>
+    <color name="colorAccent">#00007C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="paragraph">#343d41</color>
+    <color name="shadow_light">#797979</color>
+    <color name="background_gray">#F5F5F5</color>
+    <color name="blue">#00007C</color>
+    <color name="own_card_color">#bab9b9</color>
+    <color name="white_dark">#d8d8d8</color>
+    <color name="white_normal">#fff</color>
+    <color name="list_item_title">#d3d3d3</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="shadow_color">#4c4c4c</color>
+    <color name="red">#b71c1c</color>
+    <color name="green">#1b5e20</color>
+    <color name="side_bar_color">#1F2937</color>
+    <color name="side_menu_text_color">#b7c0cd</color>
+    <color name="orange">#d35400</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="light_violet">#6E6EF9</color>
+    <color name="light_black">#1E1D22</color>
+    <color name="light_green">#292F3D</color>
+    <color name="light_back">#2B2F3E</color>
+    <color name="blackTextColor">#000</color>
+    <color name="colorLoginPrimaryDark">#FDFFFF</color>
+
+</resources>

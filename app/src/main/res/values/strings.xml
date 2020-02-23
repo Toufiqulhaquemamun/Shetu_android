@@ -1,0 +1,356 @@
+<resources>
+    <string name="app_name">সেতু</string>
+
+    <string name="name_hint">User name</string>
+
+    <string name="password_hint">Password</string>
+
+    <string name="forgot_pass">Forgot password ?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login_empty">ফিল্ড খালি আছে</string>
+    <string name="preorder">"পন্যের অর্ডারসমূহ"</string>
+    <string name="addpreorder">"অগ্রিম ডাক যোগ করুন"</string>
+    <string name="preorderbids">"অগ্রিম অর্ডারসমূহ"</string>
+
+
+    <string name="no_internet">কোন ইন্টারনেট সংযোগ নেই</string>
+
+    <string name="packaging_info">প্যাকেজিং তথ্য</string>
+
+    <string name="not_authorised">তথ্য ভুল হয়েছে</string>
+
+    <string name="userName">ব্যবহারকারীর নাম</string>
+
+    <string name="password">পাসওয়ার্ড</string>
+
+    <string name="remember">মনে রাখুন</string>
+
+    <string name="login">   লগইন   </string>
+
+    <string name="dashboard">ড্যাশবোর্ড</string>
+
+    <string name="dashboards">ড্যাশবোর্ড গুলো</string>
+
+    <string name="setting">Setting</string>
+
+    <string name="home">হোম</string>
+
+    <string name="profile">প্রোফাইল</string>
+
+    <string name="marketing_sale">পণ্য বিক্রয়</string>
+
+    <string name="loan">ঋণের আবেদন</string>
+
+    <string name="report">Report</string>
+
+    <string name="product">Product Information</string>
+
+    <string name="invoice">Single Invoice</string>
+
+    <string name="details">বিস্তারিত</string>
+
+    <string name="select_product">আপনার পণ্য নির্বাচন করুন</string>
+
+    <string name="select_grade">পণ্যের গ্রেড নির্বাচন করুন</string>
+
+    <string name="quantity">পরিমাণ</string>
+
+    <string name="price">মূল্য</string>
+
+    <string name="total">মোট</string>
+
+    <string name="submit">জমা দিন</string>
+
+    <string name="post">পোস্ট করুন</string>
+
+    <string name="upload">আপলোড</string>
+
+    <string name="upload_product">পণ্যের ছবি</string>
+
+    <string name="valid_commodity">পণ্য ঠিক আছে</string>
+
+    <string name="invalid_commodity">পণ্য ঠিক নাই</string>
+
+
+    <string name="bid2">পণ্য বিড/দরদাম করুন</string>
+
+    <string name="product_information">পণ্যের তথ্য</string>
+
+    <string name="product_standard">পণ্যের মানদন্ড</string>
+
+    <string name="sale">বিক্রয়</string>
+
+    <string name="bids">বিড/দরদাম</string>
+
+    <string name="sold_product">বিক্রিত পণ্য</string>
+
+    <string name="purchased_product">ক্রয়কৃত পণ্য</string>
+
+    <string name="purchase">ক্রয়</string>
+
+    <string name="negotiated_price">দরদামকৃত মূল্য</string>
+
+    <string name="total_price">মোট দাম</string>
+
+    <string name="vat">ভ্যাট</string>
+
+    <string name="service_charge">সার্ভিস চার্জ  (১০%)</string>
+
+    <string name="shipping_cost">বহন খরচ</string>
+
+    <string name="net_balance">নেট ব্যালেন্স</string>
+
+    <string name="did_you_like_it">আপনি কি এটা  পছন্দ করেছেন ?</string>
+
+    <string name="want_a_better_offer">আরো ভাল অফার চান ?</string>
+
+    <string name="cancel">বাতিল করুন</string>
+
+    <string name="bid_product">বিড/দরদাম করুন</string>
+
+    <string name="feature">বৈশিষ্ট্য</string>
+
+    <string name="seller_information">বিক্রেতার তথ্য</string>
+
+    <string name="sme_price">এসএমই মূল্য</string>
+
+    <string name="description">পণ্য সম্পর্কিত বিস্তারিত তথ্য</string>
+
+    <string name="all_bids">সমস্ত বিড/দরদাম</string>
+
+    <string name="enter_amount">পরিমান লিখুন</string>
+
+    <string name="required">প্রয়োজনীয়</string>
+
+    <string name="undo_verification_commodity"> পণ্য যাচাই বাতিল করুন</string>
+
+    <string name="verification_commodity"> পণ্য যাচাই করুন</string>
+
+    <string name="enter_duration_in_years">বছরে সময়কাল লিখুন</string>
+
+    <string name="apply_for_loan">ঋণের জন্য আবেদন করুন</string>
+
+    <string name="withdraw_product_bid">পণ্য বিড/দরদাম প্রত্যাহার করুন</string>
+
+    <string name="modify_product_bid">পণ্য বিড/দরদাম সংশোধন করুন</string>
+
+    <string name="bid_information">বিডের/দরদামের  তথ্য</string>
+
+    <string name="choose_image">ছবি যুক্ত করুন</string>
+
+    <string name="account_detail">টাকা জমা দেওয়ার তথ্য</string>
+
+    <string name="account_hint">ব্যাংকের নাম,ব্রাঞ্চের নাম, একাউন্ট নং ইত্যাদি</string>
+
+    <string name="chooser_title">ছবি নির্বাচন করুন</string>
+
+    <string name="permission_permanently_denied">অ্যাপের সেটিংসে গিয়ে স্টোরেজ পারমিশন দিন</string>
+
+    <string name="internal_storage">Internal storage</string>
+
+    <string name="approve">অনুমোদন করুন</string>
+
+    <string name="recieve_commodity">পণ্য পেয়েছি</string>
+
+    <string name="commodity_name">পণ্যের নাম</string>
+
+    <string name="successfully_uploaded">সফলভাবে পোস্ট করা হয়েছে</string>
+
+    <string name="commodity_desc">পণ্যের বিবরণ</string>
+
+    <string name="criteria">মানদণ্ড</string>
+
+    <string name="production_process">উৎপাদন প্রক্রিয়া</string>
+
+    <string name="grade_document">গ্রেড ডকুমেন্ট</string>
+
+    <string name="server_error">যান্ত্রিক  ত্রুটি হয়েছে</string>
+
+    <string name="logout">প্রস্থান</string>
+
+    <string name="no_item">কোন পণ্য নেই</string>
+
+    <string name="posted_commodity_info">পোস্ট করা পণ্যদ্রব্যের তথ্য</string>
+
+    <string name="grade">গ্রেড</string>
+
+    <string name="company_name">কোম্পানির  নাম</string>
+
+    <string name="location">ঠিকানা</string>
+
+    <string name="phone">ফোন</string>
+
+    <string name="error">ত্রুটি হয়েছে</string>
+
+    <string name="more_details">আরো বিস্তারিত</string>
+
+    <string name="call_to_know">বি.দ্র. : পরিবহণ খরচ কে দিবে তা ক্রেতা এবং বিক্রেতা নির্ধারন করবে</string>
+
+    <string name="experiray_date_time">মেয়াদ শেষের তারিখ এবং সময়</string>
+
+    <string name="seller_name">বিক্রেতার নাম</string>
+
+    <string name="status">অবস্থা</string>
+
+    <string name="unit">ইউনিট</string>
+
+    <string name="buyer_name">ক্রেতার নাম</string>
+
+    <string name="asking_price">বাজার দাম</string>
+
+    <string name="sold_price">বিক্রিত দাম</string>
+
+    <string name="bid_time">িডের/দরদামের সময়</string>
+
+    <string name="selling_time">বিক্রির সময় </string>
+
+    <string name="receipt_upload_successful">টাকার রশিদ জমা হয়েছে</string>
+
+    <string name="bid_successful">আপনার ডাক যোগ হয়েছে !</string>
+
+    <string name="modified_bid_successful">সংশোধিত ডাক যোগ হয়েছে !</string>
+
+    <string name="serial">সিরিয়াল</string>
+
+    <string name="file_access_message">ফাইল রাখার অনুমতি প্রয়োজন,\nতা ছাড়া অ্যাপ ভালোভাবে  চলবে না</string>
+
+    <string name="ok">ঠিক আছে</string>
+
+    <string name="receipt">টাকার রশিদ</string>
+
+    <string name="personal">ব্যক্তিগত</string>
+
+    <string name="organizational">প্রতিষ্ঠান</string>
+
+    <string name="agent">এজেন্ট</string>
+
+    <string name="father_name">বাবার নাম</string>
+
+    <string name="mother_name">মায়ের নাম</string>
+
+    <string name="gender">লিঙ্গ</string>
+
+    <string name="date_of_birth">জন্ম তারিখ</string>
+
+    <string name="experience">পেশাগত অভিজ্ঞতা</string>
+
+    <string name="email">ই-মেইল</string>
+
+    <string name="nid_no">জাতীয় পরিচয় নম্বর</string>
+
+    <string name="passport_no">পাসপোর্ট নম্বর</string>
+
+    <string name="education">শিক্ষাগত যোগ্যতা</string>
+
+    <string name="organization_name">প্রতিষ্ঠানের নাম</string>
+
+    <string name="business_type">ব্যবসার ধরন</string>
+
+    <string name="company_type">মালিকানা ধরন</string>
+
+    <string name="registration">নিবন্ধিত</string>
+
+    <string name="start_date">প্রতিষ্ঠার তারিখ</string>
+
+    <string name="trade_licence_no">ট্রেড লাইসেন্স নম্বর</string>
+
+    <string name="vat_no">ভ্যাট নিবন্ধন নম্বর</string>
+
+    <string name="tin_no">টিআইএন নম্বর</string>
+
+    <string name="product_rate">পণ্যের দর</string>
+
+    <string name="employee_number">কর্মচারীর সংখ্যা</string>
+
+    <string name="street_house_no">রাস্তা/বাড়ি নম্বর</string>
+
+    <string name="postal_code">পোস্ট অফিসের নাম্বার</string>
+
+    <string name="thana">থানা</string>
+
+    <string name="district">জেলা</string>
+
+    <string name="permanent_address">স্থায়ী ঠিকানা</string>
+
+    <string name="present_address">বর্তমান ঠিকানা</string>
+
+    <string name="sign">স্বাক্ষর</string>
+
+    <string name="passport">পাসপোর্টের ফটোকপি</string>
+
+    <string name="character_certificate">চারিত্রিক সনদপত্র</string>
+
+    <string name="nid">জাতীয় পরিচয়পত্রের ফটোকপি</string>
+
+    <string name="organization_address">প্রতিষ্ঠানের ঠিকানা</string>
+
+    <string name="organization_financial_state">প্রতিষ্ঠানের আর্থিক পরিসংখ্যান</string>
+
+    <string name="revenue">রাজস্ব (বার্ষিক)</string>
+
+    <string name="net_profit">নেট লাভ (বার্ষিক)</string>
+
+    <string name="total_asset">মোট সম্পদ</string>
+
+    <string name="expense">ব্যয় (বার্ষিক)</string>
+
+    <string name="yearly_turn_over">বার্ষিক বাণিজ্য</string>
+
+    <string name="permanent_asset">স্থায়ী সম্পদ</string>
+
+    <string name="memorandum_of_understanding">সমঝোতা স্মারক</string>
+
+    <string name="certificate_of_incorporation">প্রতিষ্ঠানের সার্টিফিকেট</string>
+
+    <string name="other_document">অন্যান্য কাগজপত্র</string>
+
+    <string name="documents">কাগজপত্র</string>
+
+    <string name="product_name">পণ্যের নাম</string>
+
+    <string name="sold_time">বিক্রয়ের সময়</string>
+
+    <string name="category">ক্যাটাগরি</string>
+
+    <string name="maxQuantity">সর্বোচ্চ পরিমান</string>
+
+    <string name="excess_max_quantity">সর্বোচ্চ পরিমানের বেশি হতে পারবে না</string>
+
+    <string name="none">নাই</string>
+
+    <string name="no_product">কোন পণ্য নেই</string>
+
+    <string name="edit">সংশোধন করুন</string>
+    <string name="dialog_message">ছবি তুলে সেভ করার জন্য স্টোরেজ পারমিশন প্রয়োজন</string>
+    <string name="dialog_title">স্টোরেজ পারমিশন</string>
+    <string name="agent_dash_board">এজেন্ট ড্যাশবোর্ড</string>
+    <string name="sme_list">এসএমই তালিকা</string>
+    <string name="installment">কিস্তি</string>
+    <string name="sme_shipment">এসএমই চালান</string>
+    <string name="trad_list">ট্রেড লিস্ট</string>
+    <string name="receiveable_list">প্রেরনকৃত পণ্য</string>
+    <string name="deliverable_list">সরবরাহযোগ্য পণ্য</string>
+    <string name="comission_list">কমিশন লিস্ট</string>
+    <string name="sold_list_byagent">আমার দ্বারা বিক্রয়কৃত</string>
+    <string name="buy_list_byagent">আমার দ্বারা ক্রয়কৃত</string>
+    <string name="requestforToken">টোকেন পাঠান</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name">নাম</string>
+
+    <string name="business">ব্যাবসা</string>
+    <string name="organization">প্রতিষ্ঠান</string>
+    <string name="address">ঠিকানা</string>
+    <string name="default_notification_channel_id">shetu_channed_id</string>
+    <string name="fcm_message">Shetu</string>
+    <string name="channel_name">shetu_channel_name</string>
+    <string name="channel_description">shetu_channel_description</string>
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/amount1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+         >
+
+        <EditText
+            android:id="@+id/loan_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_amount"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/info"
+        app:layout_constraintTop_toBottomOf="@+id/amount1"/>
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/required"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/amount1"
+        app:layout_constraintStart_toEndOf="@+id/imageView1"
+        android:layout_marginLeft="5dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/amount2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        >
+
+        <EditText
+            android:id="@+id/loan_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_duration_in_years"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/info"
+        app:layout_constraintTop_toBottomOf="@+id/amount2"/>
+    <TextView
+        android:id="@+id/instruction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/required"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/amount2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009a9a"
+        android:text="@string/apply_for_loan"
+        android:textColor="#d9e5f3"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:letterSpacing="0.2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:layout_marginTop="20dp"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

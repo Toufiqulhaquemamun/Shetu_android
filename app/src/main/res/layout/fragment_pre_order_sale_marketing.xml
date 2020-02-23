@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.PreOrderSaleMarketingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_product"
+                    android:textSize="16dp"
+                    />
+                <LinearLayout
+                    android:id="@+id/grade_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:paddingTop="10dp"
+                        android:id="@+id/product_spinner"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"/>
+                    <Spinner
+                        android:paddingTop="10dp"
+                        android:id="@+id/grade_spinner"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="110dp"
+                        style="@style/label"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/quantity"/>
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/quality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/quantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/blue"
+                            android:inputType="number"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <LinearLayout
+                        android:id="@+id/product_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            style="@style/label"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/unit"
+
+                            />
+
+                        <RadioGroup
+                            android:id="@+id/unit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical">
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_width="110dp"
+                            style="@style/label"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/price"/>
+                    </LinearLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/amount1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/neotiable_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/blue"
+                            android:inputType="numberDecimal"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+                    <TextView
+                        android:layout_width="110dp"
+                        style="@style/label"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/total"/>
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="110dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        style="@style/label"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="পণ্য সরবরাহের আনুমানিক সময়"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearbid_status"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        >
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:id="@+id/startdate_layout">
+
+                            <EditText
+                                android:id="@+id/start_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="false"
+                                android:gravity="center"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:id="@+id/enddate_layout">
+
+                            <EditText
+                                android:id="@+id/end_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="false"
+                                android:gravity="center"
+                                android:layout_marginBottom="10dp"
+                                />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    style="@style/label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সরবরাহের  স্থানঃ"
+                    android:textSize="16dp"
+
+                    />
+
+                <LinearLayout
+                    android:id="@+id/district_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:paddingTop="10dp"
+                        android:id="@+id/district_spinner"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"/>
+                    <Spinner
+                        android:paddingTop="10dp"
+                        android:id="@+id/upazila_spinner"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <TextView
+                    style="@style/label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="পোস্টাল কোড :"
+                    android:textSize="16dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/postal_code"
+                    android:hint="পোস্টাল কোড">
+                </EditText>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp">
+                    <TextView
+                        style="@style/label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="গ্রাম/রাস্তা/বাড়ি নংঃ"
+                        android:textSize="16dp"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/local_address"
+                        android:hint="গ্রাম/এলাকার নাম">
+                    </EditText>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        style="@style/label"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/description"/>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/feature"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:lines="8"
+                            android:gravity="top|left"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_shape_button"
+                    android:text="@string/post"
+                    android:textColor="#d9e5f3"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:padding="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:letterSpacing="0.2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

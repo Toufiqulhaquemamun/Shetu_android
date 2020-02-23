@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "300445820320",
+    "firebase_url": "https://shetu-android-dev.firebaseio.com",
+    "project_id": "shetu-android-dev",
+    "storage_bucket": "shetu-android-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300445820320:android:3cccf567903ee4b1",
+        "android_client_info": {
+          "package_name": "com.example.amir.shetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300445820320-n18crf6q07ji66k09es7a36vk3ktni0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amir.shetu",
+            "certificate_hash": "4e474864601e2e7cf1db5dc635e7f84b5b1eb052"
+          }
+        },
+        {
+          "client_id": "300445820320-ui6779vum3tk2dtp28cjo875r3at0l80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-0JrO19Z9uJUF2gNCM5o6XYAq1Z98qlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300445820320-ui6779vum3tk2dtp28cjo875r3at0l80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
