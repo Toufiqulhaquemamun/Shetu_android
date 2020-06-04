@@ -1,1 +1,2 @@
 # Shetu_android
+It is an agro based app where every farmer known as registered sme and he or she can sell bulk amount of product directly to cutomer by Posting his commodity through this app. Three types of User can Login.  Custom User Interface, Fragmentation, Recycler View, Search, External Libraries like glide for fetching image from server, circular image view and retrofit used for  backend api calling. All data are fetching from api provided by company. 
